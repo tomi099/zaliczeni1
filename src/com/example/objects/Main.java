@@ -13,7 +13,7 @@ public class Main {
                 return marka;
             }
         });
-        samochod.add(new car("Volkswagen", "Passat", 1500, 140, 11) {
+        samochod.add(new car("Volkswagen", "Passat", 1900, 170, 14) {
             @Override
             String informacje() {
                 return marka;
