@@ -19,6 +19,12 @@ public class Main {
                 return marka;
             }
         });
+        samochod.add(new car("Volkswagen", "Garbus", 1900, 160, 13) {
+            @Override
+            String informacje() {
+                return marka;
+            }
+        });
 
         for (car c1 : samochod){
             c1.print();
